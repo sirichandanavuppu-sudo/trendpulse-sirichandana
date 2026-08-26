@@ -1,0 +1,87 @@
+post_id,title,category,score,num_comments,author,collected_at
+49448210,"Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",worldnews,425,127,tosh,2026-08-26 23:03:17.726212
+49451495,Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies,technology,11,3,AlexRisio,2026-08-26 23:03:22.358719
+49450898,It's so hard to finish an idea that is not yours (and suggested by AI),technology,55,22,zazuke,2026-08-26 23:03:23.146992
+49450188,VMs won't contain cyber-capable agents,technology,49,18,polyrand,2026-08-26 23:03:23.959470
+49451313,The turbulent AI era is here,technology,35,9,LVB,2026-08-26 23:03:28.519992
+49449648,Show HN: How much of Hacker News is AI?,technology,54,35,beekthos,2026-08-26 23:03:30.046562
+49450394,AurionMail: E2EE suite (CryptPad/Stalwart) with single-password UX,technology,26,3,polo46,2026-08-26 23:03:32.517051
+49451343,US sanctions Italian hosting provider for encrypted email to Antifa and PKK,technology,62,27,unfocso,2026-08-26 23:03:35.421704
+49446422,Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights,technology,384,132,garo-pro,2026-08-26 23:03:37.877718
+49450417,WebMCP: Teaching Your Website to Talk to AI Agents,technology,52,48,sreenathmenon,2026-08-26 23:03:42.203199
+49450500,Show HN: TexLite – A lightweight self-hosted LaTeX workspace,science,13,0,thisispi,2026-08-26 23:03:43.200392
+49448029,My open source project's donations no longer go through my bank account,technology,18,1,scastiel,2026-08-26 23:03:44.126669
+49448378,Qwen3.8-Flash-Next Technical Report [pdf],technology,16,0,Philpax,2026-08-26 23:03:44.838226
+49449482,"Seneca: On Anger, Book I",entertainment,14,3,0xmattf,2026-08-26 23:03:46.214241
+49448859,"One endpoint between your AI and all your connections, memory, skills",technology,11,1,s-xyz,2026-08-26 23:03:47.245024
+49444232,Harvest (IBM 7950): Supercomputer for cryptanalysis at the NSA in the Cold War,technology,76,21,jnord,2026-08-26 23:03:48.668865
+49449363,Show HN: Prompt Builder – Free Templates,entertainment,9,0,LandoLorinse,2026-08-26 23:03:52.832794
+49448173,"Qwen3.8-Flash-Next: A New Architecture, Towards Ultimate Cost-Efficiency",worldnews,8,0,_ache_,2026-08-26 23:03:54.239398
+49450929,"Meta to pay $17B, overhaul Facebook and Instagram",entertainment,11,1,gamblor956,2026-08-26 23:03:55.110438
+49451346,"Tim Curry, star of The Rocky Horror Picture Show, dies aged 80",entertainment,16,3,tmp10423288442,2026-08-26 23:03:56.860789
+49448556,"Rotating needles in space: the road to the Kakeya conjecture, and why it matters",science,7,1,speckx,2026-08-26 23:03:58.276928
+49451482,"Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",science,11,5,2OEH8eoCRo0,2026-08-26 23:04:00.727498
+49432201,How credit card rewards became a $9.2B wealth transfer,worldnews,229,406,conbrian,2026-08-26 23:04:05.309628
+49434378,OpenAI Jalapeño: Better than Nvidia Blackwell,technology,565,362,bmulholland,2026-08-26 23:04:07.775844
+49451304,Unreal Tournament 2004 is now available for free thanks to its fan community,technology,8,1,Tomte,2026-08-26 23:04:08.508714
+49449031,"DuckLabs to Join AWS, Projects to Remain Open Source – DuckDB",technology,10,1,xnx,2026-08-26 23:04:09.260848
+49447057,The turbulent AI era is here. The choices we make now are critical.,technology,11,0,nanna,2026-08-26 23:04:10.015960
+49445286,Show HN: Buslens – where can I get to by bus? (UK),entertainment,73,54,RobinL,2026-08-26 23:04:14.302143
+49437049,Show HN: LatticeDB – Like SQLite but for graph databases,technology,174,48,smiths1999,2026-08-26 23:04:14.993292
+49448085,"Show HN: Remap – bike routing that builds loops from the best roads, on-device",entertainment,10,1,basil,2026-08-26 23:04:17.129324
+49447045,Show HN: A local tool that logs every time you swear at your AI coding assistant,technology,5,2,lokinkl,2026-08-26 23:04:18.551922
+49410814,Show HN: I wrote a BASIC interpreter that boots on UEFI machines,entertainment,150,40,Gorsefound,2026-08-26 23:04:19.973510
+49441375,"Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",technology,111,27,swimmingbrain,2026-08-26 23:04:22.840100
+49446748,U.S. gov't moves to suppress pushback on data centers,technology,155,126,rbanffy,2026-08-26 23:04:24.961588
+49411800,Training AI to Paint with Code,technology,215,27,Tiberium,2026-08-26 23:04:29.505519
+49447404,"HQ – Your infrastructure as a colony on Mars (local, real data)",technology,5,0,cloudtudio,2026-08-26 23:04:30.222418
+49447372,"Show HN: Routebase – One OpenAPI spec drives your docs, mocks, tests, monitors",technology,6,0,driedl,2026-08-26 23:04:30.956447
+49447202,Show HN: DBLift – database migration management for Python teams,sports,5,2,cmodiano,2026-08-26 23:04:34.822649
+49441666,"Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",science,110,66,zdw,2026-08-26 23:04:36.247527
+49449917,Inside The Warehouse Where Amazon Scans and Destroys Books for AI Training,worldnews,9,1,beardyw,2026-08-26 23:04:48.825333
+49435781,Warnock: Harnessing GPU geometry amplification for vector graphics,worldnews,43,4,coffeeaddict1,2026-08-26 23:04:57.121988
+49437361,Show HN: Lightweight system monitor for Linux VPS written in Go,entertainment,60,17,ygagaga,2026-08-26 23:04:57.864004
+49430259,Show HN: I built self-hosted deployment automation tool for Windows and IIS,entertainment,33,19,dt3ft,2026-08-26 23:04:58.616382
+49420873,"Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",sports,994,726,tosh,2026-08-26 23:04:59.327522
+49447860,"Hot in Here: Heat Waves, Climate Change, and Disability",worldnews,6,0,speckx,2026-08-26 23:05:00.026472
+49448899,"Boston Scientific hit by cyberattack, global operations affected",worldnews,6,0,tartoran,2026-08-26 23:05:05.553916
+49448897,The great American road trip is in peril,worldnews,8,2,speckx,2026-08-26 23:05:06.255777
+49448560,Wiped out: US faces surging toilet paper prices amid trade war with Canada,worldnews,84,97,mikhael,2026-08-26 23:05:13.879560
+49439881,"Try Omarchy as a native, hardware-accelerated app on an Apple Silicon Mac",worldnews,20,1,jbverschoor,2026-08-26 23:05:16.225870
+49425800,Vintage Artificial Intelligence: Before It Got Awkward,worldnews,160,29,signor_bosco,2026-08-26 23:05:19.448950
+49419237,How Europe is killing makers and micro-entrepreneurs,worldnews,1619,1013,l-one-lone,2026-08-26 23:05:20.211837
+49435495,"Otto Dix, Nietzsche, and the Great War (2019)",worldnews,42,27,samizdis,2026-08-26 23:05:23.001894
+49422784,The entire city of San Francisco as a video game,sports,600,171,centrosphere,2026-08-26 23:05:26.567973
+49419351,"Show HN: A techno machine in one HTML file, with verifiable renders",entertainment,234,46,ssx360,2026-08-26 23:05:36.256427
+49422227,Characterizing Agentic Flooding of Government Services,worldnews,80,85,lensecat,2026-08-26 23:05:40.636724
+49421806,"Show HN: PicoMQ – Durable Streams over HTTP, on object storage",entertainment,153,30,adesh_nalpet,2026-08-26 23:05:43.683737
+49426466,Moon (2024),science,264,40,simonebrunozzi,2026-08-26 23:05:47.126612
+49416652,Fast drilldown dashboards from a single Parquet file,entertainment,171,23,v3gas,2026-08-26 23:05:50.168755
+49420530,Peppermint oil reduces blood pressure by 8.48 mmHg in small study,science,229,108,brandonb,2026-08-26 23:05:50.906776
+49445252,Disrupting a new covert influence campaign from Russia,worldnews,91,65,sam_lowry_,2026-08-26 23:05:57.092490
+49446998,Russia starts blocking DoH and DoT,worldnews,5,0,pjf,2026-08-26 23:06:01.381540
+49445628,Revolut Joins Global Stablecoin Race with Euro-Backed Token,worldnews,9,1,thm,2026-08-26 23:06:12.189983
+49447539,DuckDB Labs is joining Amazon [video],science,6,1,m_ke,2026-08-26 23:06:15.731380
+49447600,Fake US thinktank set up and funded by Israel sought to game AI for propaganda,worldnews,224,40,n1b0m,2026-08-26 23:06:19.679873
+49441800,Software is now user-generated content,worldnews,11,1,humblecurator,2026-08-26 23:06:24.080733
+49450370,"Chinese Hackers Broke into Justice Department, NASA, Federal Reserve, Senate",science,7,1,thisisauserid,2026-08-26 23:06:29.352100
+49443338,Big Tech's Frantic Race to Quell the Growing Backlash to AI,sports,25,17,newsomix9xl,2026-08-26 23:06:31.611795
+49446549,"Moonshot in talks with Microsoft, Amazon, Google over K3 inference revenue share",science,5,1,garo-pro,2026-08-26 23:06:47.169219
+49411717,Google Workspace thinks my domain is an email provider (2025),science,389,156,el1s7,2026-08-26 23:06:48.568920
+49425819,One corner of China’s internet is insisting that the Tang Dynasty never existed,worldnews,177,174,related,2026-08-26 23:07:01.985472
+49443355,"The Commodore 77, an All-New Cyberpunk 2077 Collaboration",science,20,4,binarycrusader,2026-08-26 23:07:02.709629
+49408550,Malware infects Android-based automotive head unit firmware,worldnews,266,143,campuscodi,2026-08-26 23:07:03.389546
+49447063,Moonshot AI wants 30% of what US clouds earn from Kimi K3,science,11,1,Aboutplants,2026-08-26 23:07:14.872666
+49397074,Canada will match US tariffs 'dollar for dollar' as trade talks break down,sports,723,1685,tartoran,2026-08-26 23:07:19.048235
+49409780,Coconut oil jet fuel matches kerosene's efficiency in engine tests,sports,189,233,mdp2021,2026-08-26 23:07:43.044111
+49392536,One night in Uzbekistan: Why was this one data point so influential?,sports,117,29,paulpauper,2026-08-26 23:07:51.433304
+49400408,"ElevenLabs, TwelveLabs, ThirteenLabs",science,495,149,jemoka,2026-08-26 23:08:02.531380
+49422481,EuroHPC Launches 6 Quantum Calls with €119M in Funding,science,15,19,rbanffy,2026-08-26 23:08:11.223518
+49383582,Micron announces $10B research hub in Boise,science,131,72,osnium123,2026-08-26 23:08:18.836661
+49434291,Anthropic tells staff to work from home due to possible security team strike,sports,123,129,DGAP,2026-08-26 23:08:40.547722
+49439733,"Humanoid robots beat human records in the 100m, half-marathon, and high jump",sports,10,8,tazlor,2026-08-26 23:08:51.078293
+49392200,Scientists release biggest 2D map of the universe,science,267,71,NKosmatos,2026-08-26 23:08:51.826425
+49394827,"Show HN: OzBrain, a shared brain for knowledge between agents and your team",sports,92,55,dariusmonsef,2026-08-26 23:08:56.791938
+49442314,New Mexico's clean energy success story,science,6,0,MBCook,2026-08-26 23:09:02.318393
+49407309,Show HN: Live 3D satellite tracker and the declassified Pentagon UFO archive,science,69,39,skylensspace,2026-08-26 23:09:04.423217
+49438474,Space Invaders in COBOL on an IBM 3270 [video],science,8,0,fortran77,2026-08-26 23:09:07.307933

@@ -1,78 +1,116 @@
-# TrendPulse - Task 3: Analyse the cleaned data
+# TrendPulse - Task 3: Analysis with Pandas & NumPy
 
 import pandas as pd
 import numpy as np
-from datetime import datetime
+# STEP 1: Load the cleaned CSV
 
-
-# Find today's cleaned CSV
-date_string = datetime.now().strftime("%Y%m%d")
-input_file = f"data/trends_{date_string}.csv"
-
-
-# Load the cleaned CSV
+input_file = "data/trends_clean.csv"
 df = pd.read_csv(input_file)
+print(f"Loaded data: {df.shape}")
+
+# STEP 2: Explore the data
+print("\nFirst 5 rows:")
+print(df.head())
+print("\nShape of DataFrame:")
+print(df.shape)
 
 
-print("========== TREND PULSE ANALYSIS ==========\n")
+# Calculate average score and average comments
 
-# Basic information
-print("Total stories:", len(df))
-print("Total categories:", df["category"].nunique())
+average_score = df["score"].mean()
+average_comments = df["num_comments"].mean()
 
-print("\nStories by category:")
-print(df["category"].value_counts())
-
-
-# Average score by category
-average_score = df.groupby("category")["score"].mean()
-
-print("\nAverage score by category:")
-print(average_score.round(2))
+print(f"\nAverage score   : {average_score:.2f}")
+print(f"Average comments: {average_comments:.2f}")
 
 
-# Average comments by category
-average_comments = df.groupby("category")["num_comments"].mean()
+# STEP 3: NumPy statistics
+# Convert score column to NumPy array
 
-print("\nAverage comments by category:")
-print(average_comments.round(2))
-
-
-# Total scores by category
-total_score = df.groupby("category")["score"].sum()
-
-print("\nTotal score by category:")
-print(total_score)
-
-
-# Find the highest-scoring story
-highest_score_index = df["score"].idxmax()
-highest_score_story = df.loc[highest_score_index]
-
-print("\nHighest-scoring story:")
-print("Title:", highest_score_story["title"])
-print("Category:", highest_score_story["category"])
-print("Score:", highest_score_story["score"])
-
-
-# Find the most-commented story
-highest_comments_index = df["num_comments"].idxmax()
-highest_comments_story = df.loc[highest_comments_index]
-
-print("\nMost-commented story:")
-print("Title:", highest_comments_story["title"])
-print("Category:", highest_comments_story["category"])
-print("Comments:", highest_comments_story["num_comments"])
-
-
-# NumPy calculations
 scores = df["score"].to_numpy()
 
-print("\nNumPy statistics:")
-print("Maximum score:", np.max(scores))
-print("Minimum score:", np.min(scores))
-print("Mean score:", round(np.mean(scores), 2))
-print("Median score:", np.median(scores))
+
+# Mean
+mean_score = np.mean(scores)
 
 
-print("\n========== ANALYSIS COMPLETE ==========")
+# Median
+median_score = np.median(scores)
+
+
+# Standard deviation
+std_score = np.std(scores)
+
+
+# Highest score
+highest_score = np.max(scores)
+
+
+# Lowest score
+lowest_score = np.min(scores)
+
+
+print("\n--- NumPy Stats ---")
+print(f"Mean score   : {mean_score:.2f}")
+print(f"Median score : {median_score:.2f}")
+print(f"Std deviation: {std_score:.2f}")
+print(f"Max score    : {highest_score}")
+print(f"Min score    : {lowest_score}")
+
+
+# STEP 4: Find category with the most stories
+
+category_counts = df["category"].value_counts()
+
+most_common_category = category_counts.idxmax()
+most_common_count = category_counts.max()
+
+print(
+    f"\nMost stories in: "
+    f"{most_common_category} "
+    f"({most_common_count} stories)"
+)
+
+# STEP 5: Find the story with the most comments
+
+most_commented_index = df["num_comments"].idxmax()
+
+most_commented_story = df.loc[
+    most_commented_index,
+    "title"
+]
+
+most_comments = df.loc[
+    most_commented_index,
+    "num_comments"
+]
+
+print(
+    f'\nMost commented story: '
+    f'"{most_commented_story}" '
+    f'— {most_comments} comments'
+)
+
+
+# STEP 6: Add engagement column
+
+df["engagement"] = (
+    df["num_comments"] / (df["score"] + 1)
+)
+
+# STEP 7: Add is_popular column
+
+df["is_popular"] = (
+    df["score"] > average_score
+)
+
+# STEP 8: Save analysed data
+
+output_file = "data/trends_analysed.csv"
+
+df.to_csv(
+    output_file,
+    index=False
+)
+
+print(f"\nSaved to {output_file}")
